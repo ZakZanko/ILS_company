@@ -30,7 +30,7 @@ ul {
 body {
   margin: 0;
   font-family: Chivo, sans-serif;
-  position: absolute;
+  /* position: absolute; */
 }
 .container {
   width: 100%;
@@ -122,10 +122,10 @@ body {
 }
 .img__first--page {
   padding-bottom: 30px;
-  float: right;
-  /* display: flex;
+  /* float: right; */
+  display: flex;
   justify-content: flex-end;
-  width: 100%; */
+  width: 100%;
 }
 .line__first--info-page {
   padding-top: 56px;
