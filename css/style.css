@@ -539,6 +539,16 @@ body {
     width: 834px;
   }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .img__line--first-page {
+    width: 834px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .img__line--first-page {
+    width: 1024px;
+  }
+}
 .img__first--page {
   padding-bottom: 10px;
   display: flex;
@@ -612,7 +622,7 @@ body {
 @media only screen and (min-width: 1440px) and (max-width: 1920px) {
   .line__first--info-page {
     padding-top: 56px;
-    width: 900px;
+    width: 1024px;
   }
 }
 .container__info {
